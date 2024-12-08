@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smaple", "TimeMeasurementManager\Smaple.csproj", "{B203BC35-A2D3-420C-A25D-7111C6C664B5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dll", "Dll\Dll.csproj", "{DDE0B2AB-8DB6-4BE1-9E74-30B7F2CD80D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCase", "UseCase\UseCase.csproj", "{201A9AFF-81F5-4400-A293-4C8681E31B77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B203BC35-A2D3-420C-A25D-7111C6C664B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B203BC35-A2D3-420C-A25D-7111C6C664B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B203BC35-A2D3-420C-A25D-7111C6C664B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B203BC35-A2D3-420C-A25D-7111C6C664B5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DDE0B2AB-8DB6-4BE1-9E74-30B7F2CD80D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DDE0B2AB-8DB6-4BE1-9E74-30B7F2CD80D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDE0B2AB-8DB6-4BE1-9E74-30B7F2CD80D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDE0B2AB-8DB6-4BE1-9E74-30B7F2CD80D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201A9AFF-81F5-4400-A293-4C8681E31B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201A9AFF-81F5-4400-A293-4C8681E31B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201A9AFF-81F5-4400-A293-4C8681E31B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201A9AFF-81F5-4400-A293-4C8681E31B77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

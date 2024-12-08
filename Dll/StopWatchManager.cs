@@ -42,9 +42,7 @@ namespace Dll
         /// <returns></returns>
         public static bool TryAddStopWatch(string name, StopWatchNode stopWatchNode)
         {
-            if (!RootStopWatch.HasStopWatch(name)) { return false; }
-
-
+            return RootStopWatch.HasStopWatch(name);
         }
 
         /// <summary>
